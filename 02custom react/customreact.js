@@ -3,8 +3,11 @@ function customRender(reactElement){
       domelt.innerHTML=reactElement.children
     //   domelt.setAttribute('href',reactElement.props.href)
     //   domelt.setAttribute('target',reactElement.props.target)
-    //   root.appendChild(domelt)
-    for()
+    for(const p in reactElement.props){
+        //   if(p==children) continue;
+          domelt.setAttribute(p,reactElement.props[p])
+    }
+       root.appendChild(domelt)
     }
 const reactElement= {
     type:'a',
