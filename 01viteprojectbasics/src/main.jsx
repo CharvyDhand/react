@@ -38,5 +38,4 @@ render(
   // Myapp()
   // <elt />
   reactelement
-  
 )
