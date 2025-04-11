@@ -26,3 +26,10 @@ function App() {
   )
 }
 export default App
+
+
+// to study virtual DOM
+//visit github react fibre algorithm 
+//in virtual dom: two trees will be compared new one and old one and only different part between them will be update 
+// whereas in DOM whole tree is made again
+//to optimize the working we use virtual dom as only few updates are made by comparison with previous tree 
